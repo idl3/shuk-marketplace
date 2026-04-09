@@ -6,7 +6,7 @@
   },
   "plugins": [
     {
-      "name": "diakon",
+      "name": "dk",
       "source": {
         "source": "url",
         "url": "https://github.com/idl3/diakon.git"
