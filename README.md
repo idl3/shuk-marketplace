@@ -9,12 +9,14 @@ Claude Code plugin marketplace by idl3. The name comes from the Hebrew word *shu
 | Plugin | Description |
 |--------|-------------|
 | [diakon](https://github.com/idl3/diakon) | Multi-project workspace orchestration |
+| [olam](https://github.com/idl3/olam) | Agentic thinking platform — isolated worlds with thought graph capture |
 
 ## Install
 
 ```bash
 /plugin marketplace add idl3/shuk
-/plugin install dk@shuk
+/plugin install dk@shuk      # workspace orchestration
+/plugin install olam@shuk    # world engine
 ```
 
 ## License

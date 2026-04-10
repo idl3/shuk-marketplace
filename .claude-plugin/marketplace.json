@@ -21,6 +21,23 @@
       "repository": "https://github.com/idl3/diakon",
       "license": "CC-BY-NC-4.0",
       "keywords": ["workspace", "multi-repo", "orchestration", "monorepo", "secrets", "sops", "age"]
+    },
+    {
+      "name": "olam",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/idl3/olam.git"
+      },
+      "version": "0.1.0",
+      "description": "Agentic thinking platform — spawn isolated development worlds with thought graph capture, multi-runtime stack support, and team-level intelligence via Pleri.",
+      "author": {
+        "name": "Ernie Sim",
+        "url": "https://github.com/idl3"
+      },
+      "homepage": "https://github.com/idl3/olam",
+      "repository": "https://github.com/idl3/olam",
+      "license": "CC-BY-NC-4.0",
+      "keywords": ["worlds", "agents", "thought-graphs", "isolation", "mise", "docker", "mcp"]
     }
   ]
 }
