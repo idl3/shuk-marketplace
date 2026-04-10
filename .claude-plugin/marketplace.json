@@ -11,7 +11,7 @@
         "source": "url",
         "url": "https://github.com/idl3/diakon.git"
       },
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Multi-project workspace orchestration — manage projects, git operations, and encrypted secrets across a unified workspace.",
       "author": {
         "name": "Ernie Sim",
