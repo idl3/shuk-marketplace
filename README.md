@@ -1,4 +1,4 @@
-# Shuk Marketplace
+# Shuk
 
 Claude Code plugin marketplace by idl3.
 
@@ -11,6 +11,6 @@ Claude Code plugin marketplace by idl3.
 ## Install
 
 ```bash
-/plugin marketplace add idl3/shuk-marketplace
-/plugin install diakon@shuk-marketplace
+/plugin marketplace add idl3/shuk
+/plugin install dk@shuk
 ```
