@@ -1,6 +1,8 @@
 # Shuk
 
-Claude Code plugin marketplace by idl3.
+*The open market.*
+
+Claude Code plugin marketplace by idl3. The name comes from the Hebrew word *shuk* (שוק) — an open-air market where vendors offer their wares and buyers browse freely. Shuk is where Claude Code plugins are discovered and distributed.
 
 ## Plugins
 

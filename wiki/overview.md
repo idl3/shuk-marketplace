@@ -6,7 +6,9 @@ updated: 2026-04-10
 
 # Shuk Overview
 
-Shuk is a Claude Code plugin marketplace maintained by idl3. It provides a registry where plugins can be discovered, installed, and versioned through the Claude Code plugin system.
+Shuk (Hebrew: *shuk*, market) is a Claude Code plugin marketplace maintained by idl3. It provides a registry where plugins can be discovered, installed, and versioned through the Claude Code plugin system.
+
+The name comes from the Hebrew word for an open-air market -- a bustling place where vendors offer their wares and buyers browse freely. In the same spirit, Shuk is where Claude Code plugins are offered and discovered.
 
 ## How It Works
 
@@ -15,15 +17,15 @@ Shuk is a Claude Code plugin marketplace maintained by idl3. It provides a regis
 Plugins are listed in the marketplace registry. Users add the marketplace as a source, then browse or install available plugins by name.
 
 ```bash
-/plugin marketplace add idl3/shuk-marketplace
+/plugin marketplace add idl3/shuk
 ```
 
 ### Installation
 
-Plugins are installed from the marketplace by name with an `@shuk-marketplace` scope qualifier:
+Plugins are installed from the marketplace by name with an `@shuk` scope qualifier:
 
 ```bash
-/plugin install diakon@shuk-marketplace
+/plugin install dk@shuk
 ```
 
 The plugin system resolves the source URL from the marketplace manifest, clones the repository, and registers the plugin's skills and commands locally.
@@ -40,7 +42,7 @@ The manifest lives at `.claude-plugin/marketplace.json` and defines the marketpl
 
 ```json
 {
-  "name": "shuk-marketplace",
+  "name": "shuk",
   "owner": {
     "name": "Owner Name",
     "url": "https://github.com/owner"
@@ -82,6 +84,6 @@ The manifest lives at `.claude-plugin/marketplace.json` and defines the marketpl
 
 | Plugin | Version | Description |
 |--------|---------|-------------|
-| **diakon** (`dk`) | 0.1.4 | Multi-project workspace orchestration — manage projects, git operations, and encrypted secrets across a unified workspace |
+| **diakon** (`dk`) | 0.1.4 | Multi-project workspace orchestration -- manage projects, git operations, and encrypted secrets across a unified workspace |
 
 Diakon is the first and currently only plugin hosted on Shuk.
